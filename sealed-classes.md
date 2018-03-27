@@ -39,8 +39,7 @@ fun eval(expr: Expr): Double = when (expr) {
 classes, including sealed classes.)
 Note that classes which extend subclasses of a sealed class (indirect inheritors) can be placed anywhere, not necessarily in
 the same file.-->
-(Пример выше использует одну новую возможность Kotlin 1.1: расширение классов, включая изолированные, классами данных)
-Обратите внимание, что классы, которые расширяют наследников изолированного класса (непрямые наследники) могут быть помещены где угодно, не обязательно в том же файле.
+(Пример выше использует одну новую возможность Kotlin 1.1: расширение классов, включая изолированные, классами данных.) Обратите внимание, что классы, которые расширяют наследников изолированного класса (непрямые наследники) могут быть помещены где угодно, не обязательно в том же файле.
 
 
 <!--The key benefit of using sealed classes comes into play when you use them in a [`when` expression](control-flow.html#when-expression). If it's possible to verify that the statement covers all cases, you don't need to add an `else` clause to the statement.-->
